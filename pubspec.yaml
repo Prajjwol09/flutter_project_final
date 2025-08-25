@@ -1,0 +1,104 @@
+name: finlytic
+description: "Smart expense tracker and budget manager with AI-powered insights."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=3.8.1"
+
+# Production dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Firebase Backend Services
+  firebase_core: ^3.10.0          # Core Firebase functionality
+  firebase_auth: ^5.2.0           # User authentication
+  cloud_firestore: ^5.6.0         # NoSQL database
+  firebase_storage: ^12.3.2       # File storage
+  firebase_app_check: ^0.3.2       # App integrity verification
+  google_sign_in: ^6.2.3          # Google OAuth
+
+  # Local Storage & Data Persistence
+  hive: ^2.2.3                    # Local NoSQL database
+  hive_flutter: ^1.1.0            # Flutter integration for Hive
+  path_provider: ^2.1.4           # Platform-specific paths
+  flutter_secure_storage: ^9.2.2  # Secure local storage
+
+  # Data Visualization & Charts
+  fl_chart: ^0.69.0               # Beautiful charts
+  syncfusion_flutter_charts: ^26.2.14  # Advanced charting
+  
+  # Internationalization & Formatting
+  intl: ^0.19.0                   # Date/time and number formatting
+  timezone: ^0.9.4                # Timezone handling
+  
+  # Media & File Handling
+  image_picker: ^1.1.2            # Image selection
+  camera: ^0.10.6                 # Camera integration
+  file_picker: ^8.1.2             # File selection
+  cached_network_image: ^3.4.1    # Optimized image loading
+  path: ^1.9.0                    # Path manipulation
+  
+  # AI & Machine Learning
+  http: ^1.2.2                    # HTTP requests
+  google_mlkit_text_recognition: ^0.13.0  # OCR text recognition
+  speech_to_text: ^7.3.0          # Voice input
+  
+  # UI Enhancement & Animation
+  lottie: ^3.1.2                  # Vector animations
+  shimmer: ^3.0.0                 # Loading animations
+  
+  # Security & Authentication
+  local_auth: ^2.3.0              # Biometric authentication
+  crypto: ^3.0.3                  # Cryptographic functions
+  
+  # Utilities & Helpers
+  uuid: ^4.5.0                    # Unique ID generation
+  equatable: ^2.0.5               # Value equality
+  logger: ^2.4.0                  # Logging utilities
+  share_plus: ^10.0.2             # Native sharing
+  url_launcher: ^6.3.1            # URL launching
+  flutter_dotenv: ^5.1.0          # Environment variables
+  connectivity_plus: ^6.0.5       # Network connectivity monitoring
+
+# Development dependencies
+dev_dependencies:
+  # Code Quality & Linting
+  flutter_lints: ^5.0.0            # Flutter linting rules
+  
+  # Code Generation
+  build_runner: ^2.4.13           # Code generation runner
+  riverpod_generator: ^2.4.3      # Riverpod code generation
+  hive_generator: ^2.0.1          # Hive model generation
+
+# Flutter configuration
+flutter:
+  uses-material-design: true
+  
+  # Application assets
+  assets:
+    - assets/icons/          # Custom icons and graphics
+    - assets/images/         # Application images  
+    - assets/animations/     # Lottie animation files
+    - .env                   # Environment configuration
+    
+  # Custom fonts (if needed)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700

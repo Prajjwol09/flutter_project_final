@@ -1,0 +1,50 @@
+{
+  "name": "finlytic",
+  "version": "1.0.0",
+  "description": "Smart expense tracker and budget manager with AI-powered insights - Flutter cross-platform application",
+  "main": "generate_pdf.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test",
+    "scripts": "scripts",
+    "docs": "docs"
+  },
+  "scripts": {
+    "pdf-service": "node generate_pdf.js",
+    "test": "echo \"Use 'flutter test' for Flutter tests\" && exit 0",
+    "build": "echo \"Use 'flutter build' for Flutter builds\" && exit 0",
+    "lint": "echo \"Use 'flutter analyze' for Flutter linting\" && exit 0"
+  },
+  "keywords": [
+    "flutter",
+    "expense-tracker",
+    "finance",
+    "ai",
+    "budget-manager",
+    "personal-finance",
+    "cross-platform",
+    "mobile-app",
+    "firebase",
+    "riverpod"
+  ],
+  "author": {
+    "name": "Finlytic Team",
+    "email": "support@finlytic.app",
+    "url": "https://github.com/kafle1/fynlitic"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kafle1/fynlitic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kafle1/fynlitic/issues"
+  },
+  "homepage": "https://github.com/kafle1/fynlitic#readme",
+  "dependencies": {
+    "puppeteer": "^24.16.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
