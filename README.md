@@ -278,9 +278,7 @@ flutter build web --release
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
 
-- **Niraj Kafle** - *Initial work* - [GitHub Profile](https://github.com/nirajkafle)
 
 ## 🙏 Acknowledgments
 
@@ -289,12 +287,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Google ML Kit for OCR capabilities
 - The open-source community for invaluable packages
 
-## 📞 Support
 
-For support and questions:
-- Create an [issue](https://github.com/yourusername/finlytic/issues)
-- Email: contact.me.kafle@gmail.com
-
----
 
 <p align="center">Made with ❤️ using Flutter</p>
